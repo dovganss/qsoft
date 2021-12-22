@@ -1,0 +1,14 @@
+.title {
+  font-family: Roboto;
+  margin: 0;
+  color: #121920;
+  font-weight: bold;
+  font-size: 36px;
+  text-transform: uppercase;
+  padding: 76px 0 32px 135px;
+
+  @include tablets {
+    padding: 72px 0 33px 20px;
+    font-size: 28px;
+  }
+}

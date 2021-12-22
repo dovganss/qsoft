@@ -1,0 +1,23 @@
+//normalize
+@import "./normalize.css";
+
+//media
+
+@import "./media.scss";
+
+$tablets: 768px;
+$phones: 480px;
+$baseFontSize: 14px;
+
+//font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Ubuntu:wght@400;700&display=swap');
+
+
+//components
+@import "./../style/layout";
+@import "./components/header";
+@import "./components/user.scss";
+@import "./components/content.scss";
+@import "./components/title.scss";
+@import "./components/blocks";
+@import "./components/block";

@@ -1,0 +1,29 @@
+.user {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  @include phones {
+    display: none;
+  }
+}
+
+.user__name {
+  margin-right: 12px;
+  color: #768298;
+  font-size: 14px;
+  font-family: Roboto;
+  cursor: pointer;
+}
+
+.user-mobile__img {
+  display: none;
+
+  @include phones {
+    display: block;
+    cursor: pointer;
+    margin-top: 1px;
+    margin-right: 24px;
+  }
+
+}
